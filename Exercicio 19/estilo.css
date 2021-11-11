@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+body {
+    background-color:azure;
+    font-family:Verdana;
+}
+h1{
+    color: rgb(4,100,0);
+}
+h1#principal {
+    text-align: center;
+    background-color:burlywood;
+
+}
+h2{
+    color: rgb(73,100,71);
+    font-style: oblique;
+}
+.basico{
+    color:darkslateblue;
+}
+.intermed{
+    color:darkgoldenrod;
+
+}
+.avancado{
+    color:darkred;
+
+}

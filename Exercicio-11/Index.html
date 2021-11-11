@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídia as HTML5</title>
+</head>
+<body>
+    <H1>imagem dinâmica</H1>
+    <P>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</P>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png">
+        <img src="Imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Reprodizindo áudio</h1> 
+    <h1>Links para Dowloads</h1>
+        <ul>
+            <li><a href="Livro/Livro-Digital-de-Introdução-aos-Sistemas-Solares-novo.pdf" download="Livro-Digital-de-Introdução-aos-Sistemas-Solares-novo.pdf" type="application/pdfMe">Baixar o livro em PDF</a></li>
+            <li><a href="#"> Livro compatado em ZIP</a></li>
+
+        </ul>
+    <p>Vamos aprender a reproduzir audio em HTML5</p>
+    <audio preloads="matadata" autoplay controls>
+    
+        <source src="midia/01 Something's Happening (Live).mp3" type="audio/mpeg">
+        <source src="midia/01 Something's Happening (Live).ogg" type="audio/ogg">
+        <source src="midia/01 Something's Happening (Live).wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio.<a href="midia/01 Something's Happening (Live).mp3">Clique aqui para baixar o arquivo MP3 </a></p>
+       
+
+    </audio>
+</body>
+</html>
